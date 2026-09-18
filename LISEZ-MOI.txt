@@ -1,0 +1,36 @@
+BOUTIQUE SUPERLIFE : LANDING PAGE (HTML / CSS / JAVASCRIPT)
+===========================================================
+
+CONTENU
+  index.html      Structure et textes de la page
+  css/style.css   Mise en forme (couleurs, typographie, responsive, mode sombre)
+  js/main.js      Onglets produits, panier, message WhatsApp
+  images/         Visuels produits (+ miniatures dans images/thumbs)
+
+POUR L'OUVRIR
+  Double-cliquez sur index.html. Aucune installation nécessaire.
+  Une connexion internet est utile pour charger les polices (Google Fonts).
+
+CE QU'IL FAUT PERSONNALISER
+  1. Nom de la boutique et numéro WhatsApp
+     -> js/main.js, bloc CONFIG en haut du fichier
+        brandName       : nom affiché dans l'en-tête et le pied de page
+        whatsappNumber  : format international, chiffres seuls (ex. '2250700000000')
+                          Laissé vide, WhatsApp propose de choisir le contact (utile pour la démo).
+  2. Prix des produits
+     -> index.html, balise <article class="panel" ... data-price="">
+        Renseignez data-price="15000" (chiffres seuls, en FCFA).
+        Vide : la page affiche « Prix sur demande » et aucun total dans le panier.
+  3. Textes, composition, mode d'emploi : directement dans index.html (section « La gamme »).
+
+AVANT MISE EN LIGNE : POINTS À VALIDER AVEC LE CLIENT
+  - Prix, zones et délais de livraison, modalités de paiement
+  - Certificats correspondant aux mentions GMP, MeSTI, SGS, Halvec (section « Qualité »)
+  - Autorisation d'utiliser la marque SuperLife et les visuels du fabricant
+  - Poids des sachets du SCC+ (5 g sur le visuel fourni, autres valeurs ailleurs)
+  - Les textes sont rédigés en « complément alimentaire » : aucune allégation thérapeutique.
+    À conserver dans toute modification.
+
+MISE EN LIGNE
+  Le dossier est un site statique : il peut être déposé tel quel sur n'importe quel hébergement
+  (Netlify, Vercel, GitHub Pages, hébergeur classique).
