@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Boutique SuperLife : comportement de la page
+   Glorieux Team World : comportement de la page
    1. Configuration (à personnaliser)
    2. Onglets produits
    3. Panier + commande WhatsApp
@@ -11,7 +11,7 @@
   /* ------------------------------------------------------------------ 1. CONFIG */
   const CONFIG = {
     // Nom affiché dans l'en-tête et le pied de page
-    brandName: 'Boutique SuperLife',
+    brandName: 'Glorieux Team World',
 
     // Numéro WhatsApp de la boutique, au format international, chiffres seuls
     // (indicatif pays + numéro, sans « + » ni espaces). Exemple : '2250700000000'

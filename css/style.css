@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Boutique SuperLife : landing page
+   Glorieux Team World : landing page
    Palette : vert forêt (encre), menthe, baie (action), or (anneau des visuels)
    Typo : Bricolage Grotesque (titres) + Figtree (texte)
    ========================================================================== */
@@ -129,7 +129,7 @@ a, button, summary, .tab { touch-action: manipulation; -webkit-tap-highlight-col
   font: 700 1.15rem/1 var(--font-display); letter-spacing: -.01em; text-decoration: none; white-space: nowrap;
 }
 .brand { min-width: 0; padding-block: 10px; }
-.brand-ring { width: 26px; height: 26px; border: 4px solid var(--gold); border-radius: 50%; flex: none; }
+.brand-logo { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex: none; }
 
 .nav { display: flex; gap: 28px; margin-left: auto; }
 .nav a { text-decoration: none; font-weight: 500; padding: 8px 2px; background: linear-gradient(currentColor, currentColor) 0 100% / 0 2px no-repeat; transition: background-size .25s; }
@@ -444,7 +444,7 @@ h2 { font-size: clamp(1.9rem, 3.6vw, 2.8rem); font-weight: 700; line-height: 1.0
 
 @media (max-width: 480px) {
   .brand { white-space: normal; font-size: 1rem; line-height: 1.05; gap: 8px; }
-  .brand-ring { width: 22px; height: 22px; border-width: 4px; }
+  .brand-logo { width: 36px; height: 36px; }
   .cart-btn { padding: 0 12px; }
 }
 
